@@ -1,0 +1,442 @@
+/* 4 - External */
+
+body{
+
+    padding-bottom: 1000px;
+
+}
+
+h3{
+    color:green;
+    font-size: 55px;
+}
+
+/* classes */
+.paragraph{
+
+
+    background-color: black;
+    color:aqua;
+    padding: 5px;
+
+
+}
+/* ids */
+#exclusive-title{
+
+    background-color: purple;
+    color: yellow;
+    padding: 10px
+
+
+}
+/* Ordem das regras */
+h3{
+
+    border-bottom: 2px solid red;
+
+}
+.titulo{
+
+    border-bottom: 3px solid blue;
+
+}
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+
+.color-name{
+
+
+color: rgb(253, 213, 185);
+
+
+}
+/* HEX */
+.rex{
+
+    color: #55a398;
+
+}
+.hex-2{
+
+   color: #2fad96;
+}
+/* Hex simplificado */
+.simple-hex{
+    color: #7fb;
+}
+.simple-hex2{
+
+color: #27b;
+
+}
+
+/* rgb */
+
+.rgb{
+    color: rgb(0,0,255);
+
+}
+.rgbm{
+    color: rgb(77,99,140)
+}
+
+/* rgba */
+
+.rgba{
+    color: rgba(144,88,145,0.2);
+}
+
+/* HSL */
+
+.hsl{
+
+    color: hsl(100,20%,50%);
+
+}
+
+.hsl2{
+
+    color: hsl(254, 71%, 54%)
+
+}
+
+/* Background color */
+
+.bg{
+    background-color: #000;
+    color:yellow
+}
+
+.bg2{
+    background-color: rgb(70,20,99);
+    color: #77eaff;
+}
+
+/* Background opacity */
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000;
+    opacity:0.8
+}
+
+/* RGBA Opacity background */
+.rgba-opacity{
+    background-color: rgba(144,88,145,0.2);
+    color: rgb(252, 92, 44)
+}
+
+/* BG IMG */
+.bg-img{
+    background-image:url("../img/nature\ \(1\).jpg");
+    color: #55a398;
+    padding: 10px;
+}
+
+/* Centralização de BG */
+
+.not-centralized-img,
+.centralized-img{
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge\ \(1\).jpg");
+}
+.centralized-img{
+    background-position: center;
+    background-size: cover;
+}
+
+/* heigth width */
+.height-width{
+
+height:200px;
+width: 100px;
+background-color: red;
+
+}
+.height-width-2{
+    height: 300px;
+    background-color: #000;
+}
+/* padding */
+.without-padding,.padding{
+    background-color: #db7676;
+    color: #fff
+}
+
+.padding{
+    padding: 20px;
+}
+
+/* Padding Individual */
+.padding-individual{
+    background-color: #000;
+    color:#fff;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+}
+
+/* Shorthand Padding */
+.shorthand-padding{
+    background-color: #555;
+    color:#27b;
+    padding: 10px 5px 12px 20px;
+}
+
+.shorthand-padding-2{
+    background-color: #666;
+    color: #27b;
+    padding: 10px 20px
+}
+
+/* Padding com width */
+.withou-border-box{
+    background-color: #db7676;
+    color: #fff;
+    width: 400px;
+    padding: 50px
+
+}
+
+.border-box{
+    background-color: #e90fa8;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Borda */
+
+.borda{
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.borda-2{
+    border: 15px dotted #db7676;
+    color: #000000;
+    padding: 40px
+}
+
+/* Borda Individual */
+
+.border-left{
+    border-left:3px solid red;
+    background-color: #222;
+    padding:25px;
+    color:#fff;
+}
+
+.border-bottom{
+    border-bottom:5px double #399;
+    background-color: #e90fa8;
+    padding: 30px;
+    color:#fff;
+}
+
+/* Arredondando a borda */
+.border-r {
+border: 5px solid red;
+background-color: blue;
+color: #fff;
+border-radius: 15px;
+padding:40px
+
+}
+
+.border-r-2 {
+background-color: #2fad96;
+color: #fff;
+border-radius: 25px;
+padding:40px;
+font-size: 40px;
+
+}
+/* Margem */
+.margin{
+margin: 10px;
+background-color: #222;
+}
+
+.margin-top{
+margin-top:50px;
+background-color: #444;
+padding: 50px;
+}
+
+.margin-shorthand{
+background-color: #666;
+margin: 5px 10px 15px 20px
+}
+
+/* Box model */
+
+.box-model{
+margin:20px;
+padding: 15px 25px;
+border: 3px solid #845;
+border-radius: 7px;
+width: 200px;
+height: 400px;
+     
+}
+
+/* Text align */
+.text-aligned{
+    text-align:right;
+}
+
+.conteiner-centralized{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+/* Text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration:none;
+    color: red;
+}
+
+/* text transform */
+
+.upper{
+    text-transform:uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* letter spacing */
+
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* fontes */
+.serif{
+    font-family: Georgia;
+
+}
+
+.sans-serif{
+    font-family: Helvetica;
+}
+
+.monospace{
+    font-family: 'Courier New';
+
+}
+
+.cursive{
+    font-family: cursive;
+
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* Font style */
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* fonte weight */
+
+.thin,.bold.bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Font Size */
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+/* Dispaly */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+.block{
+    background-color: #333;
+    display:block;
+    margin: 10px;
+
+}
+
+/* Escondendo elemento */
+
+.invisible{
+    display: none;
+}
+
+/* static */
+
+.static{
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height:100px;
+
+}
+
+/* Relativo */
+
+.relative{
+    position: relative;
+    background-color: #224;
+    color: #fff;
+    width: 100px;
+    height:100px;
+    top: 100px;
+    left:40px;
+}
