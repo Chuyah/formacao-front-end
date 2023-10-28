@@ -1,9 +1,7 @@
 /* 4 - External */
 
 body{
-
     padding-bottom: 1000px;
-
 }
 
 h3{
@@ -12,35 +10,30 @@ h3{
 }
 
 /* classes */
+
 .paragraph{
-
-
     background-color: black;
     color:aqua;
     padding: 5px;
-
-
 }
+
 /* ids */
 #exclusive-title{
-
     background-color: purple;
     color: yellow;
     padding: 10px
-
-
 }
+
 /* Ordem das regras */
+
 h3{
-
     border-bottom: 2px solid red;
-
 }
+
 .titulo{
-
     border-bottom: 3px solid blue;
-
 }
+
 #algum-titulo{
     border-bottom: 4px solid green;
 }
@@ -48,38 +41,35 @@ h3{
 /* nome de cores */
 
 .color-name{
-
-
-color: rgb(253, 213, 185);
-
-
+    color: rgb(253, 213, 185);
 }
+
 /* HEX */
+
 .rex{
-
     color: #55a398;
-
 }
-.hex-2{
 
+.hex-2{
    color: #2fad96;
 }
+
 /* Hex simplificado */
+
 .simple-hex{
     color: #7fb;
 }
+
 .simple-hex2{
-
-color: #27b;
-
+    color: #27b;
 }
 
 /* rgb */
 
 .rgb{
     color: rgb(0,0,255);
-
 }
+
 .rgbm{
     color: rgb(77,99,140)
 }
@@ -93,15 +83,11 @@ color: #27b;
 /* HSL */
 
 .hsl{
-
     color: hsl(100,20%,50%);
-
 }
 
 .hsl2{
-
     color: hsl(254, 71%, 54%)
-
 }
 
 /* Background color */
@@ -117,6 +103,7 @@ color: #27b;
 }
 
 /* Background opacity */
+
 .bg-opacity{
     background-color: green;
     opacity: 0.2;
@@ -129,12 +116,14 @@ color: #27b;
 }
 
 /* RGBA Opacity background */
+
 .rgba-opacity{
     background-color: rgba(144,88,145,0.2);
     color: rgb(252, 92, 44)
 }
 
 /* BG IMG */
+
 .bg-img{
     background-image:url("../img/nature\ \(1\).jpg");
     color: #55a398;
@@ -155,18 +144,20 @@ color: #27b;
 }
 
 /* heigth width */
+
 .height-width{
-
-height:200px;
-width: 100px;
-background-color: red;
-
+    height:200px;
+    width: 100px;
+    background-color: red;
 }
+
 .height-width-2{
     height: 300px;
     background-color: #000;
 }
+
 /* padding */
+
 .without-padding,.padding{
     background-color: #db7676;
     color: #fff
@@ -177,6 +168,7 @@ background-color: red;
 }
 
 /* Padding Individual */
+
 .padding-individual{
     background-color: #000;
     color:#fff;
@@ -187,6 +179,7 @@ background-color: red;
 }
 
 /* Shorthand Padding */
+
 .shorthand-padding{
     background-color: #555;
     color:#27b;
@@ -200,12 +193,12 @@ background-color: red;
 }
 
 /* Padding com width */
+
 .withou-border-box{
     background-color: #db7676;
     color: #fff;
     width: 400px;
     padding: 50px
-
 }
 
 .border-box{
@@ -246,50 +239,49 @@ background-color: red;
 }
 
 /* Arredondando a borda */
-.border-r {
-border: 5px solid red;
-background-color: blue;
-color: #fff;
-border-radius: 15px;
-padding:40px
 
+.border-r {
+    border: 5px solid red;
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px;
+    padding:40px
 }
 
 .border-r-2 {
-background-color: #2fad96;
-color: #fff;
-border-radius: 25px;
-padding:40px;
-font-size: 40px;
-
+    background-color: #2fad96;
+    color: #fff;
+    border-radius: 25px;
+    padding:40px;
+    font-size: 40px;
 }
 /* Margem */
+
 .margin{
-margin: 10px;
-background-color: #222;
+    margin: 10px;
+    background-color: #222;
 }
 
 .margin-top{
-margin-top:50px;
-background-color: #444;
-padding: 50px;
+    margin-top:50px;
+    background-color: #444;
+    padding: 50px;
 }
 
 .margin-shorthand{
-background-color: #666;
-margin: 5px 10px 15px 20px
+    background-color: #666;
+    margin: 5px 10px 15px 20px
 }
 
 /* Box model */
 
 .box-model{
-margin:20px;
-padding: 15px 25px;
-border: 3px solid #845;
-border-radius: 7px;
-width: 200px;
-height: 400px;
-     
+    margin:20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;    
 }
 
 /* Text align */
@@ -337,7 +329,6 @@ height: 400px;
 /* fontes */
 .serif{
     font-family: Georgia;
-
 }
 
 .sans-serif{
@@ -346,12 +337,10 @@ height: 400px;
 
 .monospace{
     font-family: 'Courier New';
-
 }
 
 .cursive{
     font-family: cursive;
-
 }
 
 .fantasy{
@@ -387,6 +376,7 @@ height: 400px;
 }
 
 /* Font Size */
+
 .small{
     font-size: 6px;
 }
@@ -396,20 +386,19 @@ height: 400px;
 }
 
 /* Dispaly */
+
 .inline-box{
     width: 50px;
     height: 50px;
     background-color: #4f8;
     margin: 10px;
     display: inline-block;
-    
 }
 
 .block{
     background-color: #333;
     display:block;
     margin: 10px;
-
 }
 
 /* Escondendo elemento */
@@ -426,7 +415,6 @@ height: 400px;
     color: #fff;
     width: 100px;
     height:100px;
-
 }
 
 /* Relativo */
