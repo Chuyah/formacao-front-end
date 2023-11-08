@@ -14,10 +14,59 @@
         <!-- 2 - Atributos de formulário -->
 
         <form action="register.php" method="GET">
-        <div>
-        <label>Nome:</label>
-        <input type="text" />
-    </div>
+            <div>
+                <label>Nome:</label>
+                <input type="text" />
+
+                <!-- 3 - atributo name -->
+        
+                <div>
+
+                <!-- 4 - atributo label -->
+
+                    <label for="age">Idade:</label>
+                    <input type="text" name="age">
+                </div>
+            </div>
+
+            <!-- 6 - select -->
+
+            <div>
+                <label for="job">Slecione a sua profissão:</label>
+                <select name="jogb">
+                    <option value="programador">Programador</option>
+                    <option value="tester">Tester/QA</option>
+                    <option value="devops">DevOps</option>
+                    <option value="jogador">Jogador</option>
+                    <option value="contador">Contador</option>
+                </select>
+            </div>
+
+            <!-- 7 - atributo selected -->
+
+            <div>
+                <label for="contract">Você leu os termos do contrato?</label>
+                <select name="contract">
+                    <option value="sim">Sim</option>
+                    <option value="não" selected>Não</option>
+                </select>
+            </div>
+
+            <!-- 8 - multiplas opções -->
+            <div>
+                <label for="items">Selecione os itens desejados:</label>
+                <select name="items" multiple>
+                    <option value="pera">Pera</option>
+                    <option value="maca">Maça</option>
+                    <option value="goiaba">Goiaba</option>
+                    <option value="pessego">Pêssego</option>
+
+                </select>
+            </div>
+
+            <!-- 5 - Envio de form -->
+
+            <input type="submit" value="Enviar" />
     </form>
     </body>
 </html>
