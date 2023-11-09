@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Formulários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Formulários</title>
     </head>
     <body>
         <!-- 1 - Primeiro formulario -->
@@ -33,7 +33,7 @@
 
             <div>
                 <label for="job">Slecione a sua profissão:</label>
-                <select name="jogb">
+                <select name="job">
                     <option value="programador">Programador</option>
                     <option value="tester">Tester/QA</option>
                     <option value="devops">DevOps</option>
@@ -62,6 +62,47 @@
                     <option value="pessego">Pêssego</option>
 
                 </select>
+            </div>
+
+            <!-- 9 - textarea -->
+
+            <div>
+                <label for="comment">Digite abaixo o seu comentário:</label>
+                <textarea name="comment"></textarea>
+            </div>
+
+            <!-- 10 - Fieldset e legend -->
+
+            <div>
+                <fieldset>
+                    <legend>Preencha os seus dados abaixo:</legend>
+                    <label for="firstname">Nome:</label>
+                    <input type="text" name="firstname">
+                    <label for="lastname">Sobrenome:</label>
+                    <input type="text" name="lastname">
+                </fieldset>
+            </div>
+
+            <!-- 11 - Datalist -->
+
+            <div>
+                <label for="flavors">Escolha um sabor:</label>
+                <input type="text" list="flavors" name="flavors">
+                <datalist id="flavors">
+                    <option value="Morango"></option>
+                    <option value="Chocolate"></option>
+                    <option value="Pêssego"></option>
+                    <option value="Baunilha"></option>
+                    <option value="Abacaxi"></option>
+                    <option value="Milho"></option>
+                </datalist>
+            </div>
+
+            <!-- 12 - Senhas -->
+
+            <div>
+                <label for="password">Digite sua senha:</label>
+                <input type="password" name="password">
             </div>
 
             <!-- 5 - Envio de form -->
