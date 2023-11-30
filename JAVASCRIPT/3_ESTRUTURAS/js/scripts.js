@@ -156,3 +156,50 @@ let r = 10;
 for (r; r > 0; r = r - 1) {
   console.log(`O r está diminuindo ${r}`);
 }
+
+// 13 - break
+
+for (let g = 20; g > 10; g--) {
+  console.log(`O valor de g é: ${g}`);
+
+  if (g === 15) {
+    console.log("O g é 15!");
+    break;
+  }
+}
+
+for (let uva = 30; uva > 0; uva--) {
+  console.log(`O valor é ${uva}`);
+
+  if (uva === 7) {
+    console.log(`O valor agora é ${uva}, melhor parar.`);
+    break;
+  }
+}
+
+// 15 - Continue
+for (let s = 0; s < 10; s = s + 1) {
+  // Operador resto = %
+  if (s % 2 === 0) {
+    console.log("Número par!");
+    continue;
+  }
+  console.log(s);
+}
+
+// 16 - Switch
+const job = "Advogado";
+
+switch (job) {
+  case "Programador":
+    console.log("Você é um programador!");
+    break;
+  case "Advogado":
+    console.log("Você é um advogado");
+    break;
+  case "Engenheiro":
+    console.log("Você é um engenheiro");
+    break;
+  default:
+    console.log("Profissão não encontrada");
+}
