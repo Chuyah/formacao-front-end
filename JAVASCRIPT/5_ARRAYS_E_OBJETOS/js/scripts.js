@@ -111,46 +111,274 @@
 
 // console.log(a);
 
-// console.log(b);
+// // console.log(b);
 
-// console.log(a === b);
+// // console.log(a === b);
 
-// a.age = 25;
+// // a.age = 25;
 
-// console.log(b);
+// // console.log(b);
 
-// delete b.age;
+// // delete b.age;
 
-// console.log(a);
+// // console.log(a);
 
-// console.log(b);
+// // console.log(b);
 
-// 10 - loop em array
-const users = ["Victor", "João", "Pedro", "Miguel"];
+// // 10 - loop em array
+// const users = ["Victor", "João", "Pedro", "Miguel"];
 
-for (let i = 0; i < users.length; i++) {
-  console.log(`Listando o usuário: ${users[i]}`);
-}
+// for (let i = 0; i < users.length; i++) {
+//   console.log(`Listando o usuário: ${users[i]}`);
+// }
 
-// 11 - push e pop
-const array = ["a", "b", "c"];
+// // 11 - push e pop
+// const array = ["a", "b", "c"];
 
-array.push("d");
+// array.push("d");
 
-console.log(array);
+// console.log(array);
 
-console.log(array.length);
+// console.log(array.length);
 
-array.pop();
+// array.pop();
 
-console.log(array);
+// console.log(array);
 
-const itemRemovido = array.pop();
+// const itemRemovido = array.pop();
 
-console.log(itemRemovido);
+// console.log(itemRemovido);
 
-console.log(array);
+// console.log(array);
 
-array.push("z", "x", "y");
+// array.push("z", "x", "y");
 
-console.log(array);
+// console.log(array);
+
+// // 12 - shift e unshift
+
+// const letters = ["a", "b", "c"];
+
+// const letter = letters.shift();
+
+// console.log(letter);
+
+// console.log(letters);
+
+// letters.unshift("p", "q", "r");
+
+// letters.unshift("z");
+
+// console.log(letters);
+
+// // 13 - indexOf e lastIndexOf
+
+// const myElements = ["Morango", "Maça", "Abacate", "Pêra", "Abacate"];
+
+// console.log(myElements.indexOf("Maçã"));
+// console.log(myElements.indexOf("Abacate"));
+
+// console.log(myElements[2]);
+// console.log(myElements[myElements.indexOf("Abacate")]);
+
+// console.log(myElements.lastIndexOf("Abacate"));
+
+// console.log(myElements.indexOf("Mamão"));
+
+// console.log(myElements.lastIndexOf("Mamão"));
+
+// // 14 - slice
+// const testeSlice = ["a", "b", "c", "d", "e", "f"];
+
+// const subArray = testeSlice.slice(2, 4);
+
+// console.log(subArray);
+
+// console.log(testeSlice);
+
+// const subArray2 = testeSlice.slice(2, 4 + 1);
+
+// console.log(subArray2);
+
+// const subArray3 = testeSlice.slice(10, 20);
+
+// console.log(subArray3);
+
+// const subArray4 = testeSlice.slice(2);
+
+// console.log(subArray4);
+
+// // 15 - forEach
+
+// const nums = [1, 2, 3, 4, 5];
+
+// nums.forEach((numero) => {
+//   console.log(`O número é ${numero}`);
+// });
+
+// const posts = [
+//   { title: "Primeiro post", category: "PHP" },
+//   { title: "Segundo post", category: "JavaScript" },
+//   { title: "Terceiro post", category: "Python" },
+// ];
+
+// posts.forEach((post) => {
+//   console.log(`Exibindo post: ${post.title}, da categoria: ${post.category} `);
+// });
+
+// // 16 - includes
+// const brands = ["BMW", "VW", "FIAT"];
+
+// console.log(brands.includes("FIAT"));
+
+// console.log(brands.includes("Kia"));
+
+// if (brands.includes("BMW")) {
+//   console.log("Há carros da marca BMW!");
+// }
+
+// // 17 - reverse
+// const reverseTeste = [1, 2, 3, 4, 5];
+
+// reverseTeste.reverse();
+
+// console.log(reverseTeste);
+
+// // 18 - trim
+// const trimTest =
+//   "                                                   testando \n  ";
+
+// console.log(trimTest);
+
+// console.log(trimTest.trim());
+
+// console.log(trimTest.length);
+
+// console.log(trimTest.trim().length);
+
+// // 19 - padstart
+// const testePadStart = "1";
+
+// const newNumber = testePadStart.padStart(4, "0");
+
+// console.log(testePadStart);
+
+// console.log(newNumber);
+
+// const testePadEnd = newNumber.padEnd(10, "0");
+
+// console.log(testePadEnd);
+
+// // 20 - split
+// const frase = "O rato roeu a roupa do rei de Roma";
+
+// const arrayDaFrase = frase.split(" ");
+
+// console.log(arrayDaFrase);
+
+// // 21 - Join
+// const fraseDenovo = arrayDaFrase.join(" ");
+
+// console.log(fraseDenovo);
+
+// const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
+
+// const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(",")}`;
+
+// // 22 - repeat
+// const palavra = "Testando";
+
+// console.log(palavra.repeat(5));
+
+// // 23- rest operator
+
+// const somaInfinita = (...args) => {
+//   total = 0;
+
+//   for (let i = 0; i < args.length; i++) {
+//     total += args[i];
+//   }
+
+//   return total;
+// };
+
+// console.log(somaInfinita(1, 2, 3));
+
+// console.log(somaInfinita(1, 20, 34));
+
+// // 24 - for of
+// const somaInfinita2 = (...args) => {
+//   let total = 0;
+
+//   for (num of args) {
+//     total += num;
+//   }
+
+//   return total;
+// };
+
+// console.log(somaInfinita2(1, 2, 4));
+
+// console.log(somaInfinita2(5, 6, 1, 23, 5, 6, 3, 5));
+
+// // 25 - destructuring em objetos
+// const userDetails = {
+//   firstName: "Victor",
+//   lastName: "Alves",
+//   job: "Programador",
+// };
+
+// const { firstName, lastName, job } = userDetails;
+
+// console.log(firstName, lastName, job);
+
+// console.log(userDetails);
+
+// // renomear variaveis
+// const {
+//   firstName: primeiroNome,
+//   lastName: ultimoNome,
+//   job: emprego,
+//   asd,
+// } = userDetails;
+
+// console.log(primeiroNome);
+// console.log(ultimoNome);
+// console.log(emprego);
+// console.log(asd);
+
+// // 26 - destructuring em arrays
+// const myList = ["avião", "carro", "moto"];
+
+// const [veiculoA, VeiculoB, VeiculoC] = myList;
+
+// console.log(veiculoA, VeiculoB, VeiculoC);
+
+// 27 - JSON
+const myJson =
+  '{"name": "Victor", "age": 25, "skills": ["PHP", "JavaScript","Python"]}';
+
+console.log(myJson);
+
+console.log(typeof myJson);
+
+// 28 - JSON para objeto e objeto para JSON
+
+const myObject = JSON.parse(myJson);
+
+console.log(myObject);
+console.log(myObject.name);
+console.log(typeof myObject);
+
+// json invalido
+const badJson = '{"name": Victor, "idade": 31}';
+
+// const myBadObject = JSON.parse(badJson);
+
+myObject.isOpenToWork = true;
+
+const myNewJson = JSON.stringify(myObject);
+
+console.log(myNewJson);
+
+console.log(typeof myNewJson);
